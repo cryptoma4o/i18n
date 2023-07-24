@@ -1,0 +1,115 @@
+en:
+  menu:
+    home: |
+      🏠 Home Menu
+    config: |
+      ⚙️ Configurations
+    config_manual: |
+      🔑 Manual (Login + Password) 🌐
+    subscription: |
+      💸 Subscription
+    subscription_back: |
+      💸 Back to Subscription
+    lang: |
+      🌎 Language
+    lang_back: |
+      🌎 Back to languages
+    lang_custom: |
+      🔧 New Language
+    help: |
+      ℹ️ Help
+    delete_message: |
+      🥷 Delete Message
+  # --------------------------------------------------------
+  help:
+    text: |
+      *Available commands:*
+
+      🏠 /start - Start the bot and register
+
+      ⚙️ /config - Manage configurations
+
+      💸 /subscription - Manage your subscription
+
+      🌎 /lang - Manage the bot language
+
+      ℹ️ /help - Get the commands list
+  # --------------------------------------------------------
+  start:
+    text: |
+      *🌟 Welcome! 🌟*
+
+      Thank you for choosing [KebabVPN](https://kebabvpn.com). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://kebabvpn.com. All options are available by running /help command.
+  # --------------------------------------------------------
+  sub_extended:
+    text: |
+      🌟 *Congratulations!* 🌟
+
+      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback! 🫶
+
+      Your subscription ends at: *%<exp>s*
+  # --------------------------------------------------------
+  subscription:
+    ico_yes: ✅
+    ico_no: ❌
+    menu:
+      crypto: |
+        🤑 Pay using USDT (TRC-20, any amount)
+      fiat_1_mo: |
+        💵 1 Month - 4.99 USD
+      fiat_12_mo: |
+        💵 12 Months - 49.99 USD (20% OFF)
+      fiat_36_mo: |
+        💵 36 Months - 89.99 USD (50% OFF)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions). Please read carefully, there is no refund.
+  # --------------------------------------------------------
+  sub_crypto:
+    text: |
+      *Your top-up TRC-20 address*:
+
+      `%<addr_trc20>s`
+      (click to copy)
+
+      USDT deposits are calculated like USD according to effective pricing. For example, if you want to pay for 12 months, just transfer `49.99` USDT. You may transfer any amount you want, the subscription end date will be calculated accordingly in a proportion. We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit.
+  # --------------------------------------------------------
+  config:
+    text: |
+      *Your VPN configurations*
+
+      Please choose an appropriate configuration for your device. Most of devices support IPSec protocol, but feel free to learn [Documentation](https://kebabvpn.com/guide).
+  # --------------------------------------------------------
+  config_manual:
+    text: |
+      *Your Credentials*
+
+      Username: `%<username>s`
+
+      Password: `%<password>s`
+
+      You have %<secs>s seconds to copy your credentials, and we will hide them. No worries, they're permanent, but to keep the data secured we limit the time you may see it on the screen.
+  # --------------------------------------------------------
+  config_file:
+    text: |
+      Please download the file and install it to your device. Once the configuration is downloaded and installed we highly recomment to delete this message manually or by pressing the button below.
+    error: |
+      Configuration is not found!
+  # --------------------------------------------------------
+  lang:
+    text: |
+      *🌎 Choose your language:*
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+  # --------------------------------------------------------
+  lang_custom:
+    text: |
+      *🔧 New Language*
+
+      Please feel free to contribute us to explore more languages or fixing typos. More information is available at the page: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  unknown:
+    text: |
+      Unknown command, please run /help to list all commands available!
