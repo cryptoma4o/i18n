@@ -1,25 +1,15 @@
 ru:
   menu:
-    home: |
-      🏠 Домой
-    config: |
-      ⚙️ Конфигурации
-    config_manual: |
-      🔑 Ручной (Логин + Пароль) 🌐
-    subscription: |
-      💸 Подписка
-    subscription_back: |
-      💸 Обратно к подписке
-    lang: |
-      🌎 Язык
-    lang_back: |
-      🌎 Обратно к языкам
-    lang_custom: |
-      🔧 Новый язык
-    help: |
-      ℹ️ Помощь
-    delete_message: |
-      🥷 Удалить сообщение
+    home: 🏠 Домой
+    config: ⚙️ Конфигурации
+    config_manual: 🔑 Ручной (Логин + Пароль) 🌐
+    subscription: 💸 Подписка
+    subscription_back: 💸 Обратно к подписке
+    lang: 🌎 Язык
+    lang_back: 🌎 Обратно к языкам
+    lang_custom: 🔧 Новый язык
+    help: ℹ️ Помощь
+    delete_message: 🥷 Удалить сообщение
   # --------------------------------------------------------
   help:
     text: |
@@ -55,14 +45,10 @@ ru:
     ico_yes: ✅
     ico_no: ❌
     menu:
-      crypto: |
-        🤑 Оплатить USDT (TRC-20, любая сумма)
-      fiat_1_mo: |
-        💵 1 мес. - 4.99 USD
-      fiat_12_mo: |
-        💵 12 мес. - 49.99 USD (20% скидка)
-      fiat_36_mo: |
-        💵 36 мес. - 89.99 USD (50% скидка)
+      crypto: 🤑 Оплатить USDT (TRC-20, любая сумма)
+      fiat_1_mo: 💵 1 мес. - 4.99 USD
+      fiat_12_mo: 💵 12 мес. - 49.99 USD (20% скидка)
+      fiat_36_mo: 💵 36 мес. - 89.99 USD (50% скидка)
     text: |
       *Ваша подписка:*
 

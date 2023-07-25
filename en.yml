@@ -1,25 +1,15 @@
 en:
   menu:
-    home: |
-      🏠 Home Menu
-    config: |
-      ⚙️ Configurations
-    config_manual: |
-      🔑 Manual (Login + Password) 🌐
-    subscription: |
-      💸 Subscription
-    subscription_back: |
-      💸 Back to Subscription
-    lang: |
-      🌎 Language
-    lang_back: |
-      🌎 Back to languages
-    lang_custom: |
-      🔧 New Language
-    help: |
-      ℹ️ Help
-    delete_message: |
-      🥷 Delete Message
+    home: 🏠 Home Menu
+    config: ⚙️ Configurations
+    config_manual: 🔑 Manual (Login + Password) 🌐
+    subscription: 💸 Subscription
+    subscription_back: 💸 Back to Subscription
+    lang: 🌎 Language
+    lang_back: 🌎 Back to languages
+    lang_custom: 🔧 New Language
+    help: ℹ️ Help
+    delete_message: 🥷 Delete Message
   # --------------------------------------------------------
   help:
     text: |
@@ -55,14 +45,10 @@ en:
     ico_yes: ✅
     ico_no: ❌
     menu:
-      crypto: |
-        🤑 Pay using USDT (TRC-20, any amount)
-      fiat_1_mo: |
-        💵 1 Month - 4.99 USD
-      fiat_12_mo: |
-        💵 12 Months - 49.99 USD (20% OFF)
-      fiat_36_mo: |
-        💵 36 Months - 89.99 USD (50% OFF)
+      crypto: 🤑 Pay using USDT (TRC-20, any amount)
+      fiat_1_mo: 💵 1 Month - 4.99 USD
+      fiat_12_mo: 💵 12 Months - 49.99 USD (20% OFF)
+      fiat_36_mo: 💵 36 Months - 89.99 USD (50% OFF)
     text: |
       *Your subscription:*
 
