@@ -53,7 +53,7 @@ zh:
       *您的订阅:*
 
       截止日期: *%<exp>s* %<ico>s (%<days>s 天)
-      支付即代表您同意[服务条款](https://kebabvpn.com/terms-and-conditions)。请仔细阅读，款项不可退回。
+      支付即代表您同意[服务条款](https://kebabvpn.com/terms-and-conditions)。
   # --------------------------------------------------------
   sub_crypto:
     text: |

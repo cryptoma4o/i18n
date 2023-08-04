@@ -53,7 +53,7 @@ tr:
       *Aboneliğiniz:*
 
       Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
-      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms-and-conditions) kabul etmiş olursunuz. Lütfen dikkatlice okuyun, geri ödeme yapılmaz.
+      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms-and-conditions) kabul etmiş olursunuz.
   # --------------------------------------------------------
   sub_crypto:
     text: |

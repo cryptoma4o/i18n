@@ -53,7 +53,7 @@ en:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions). Please read carefully, there is no refund.
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
   # --------------------------------------------------------
   sub_crypto:
     text: |
