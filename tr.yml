@@ -79,8 +79,6 @@ tr:
       Kullanıcı Adı: `%<username>s`
 
       Parola: `%<password>s`
-
-      Erişim bilgilerinizi kopyalamak için %<secs>s saniyeniz var, sonra gizleneceklerdir. Endişelenmeyin, verileriniz silinmeyecektir, sadece gözlerden uzak olmalarını sağlıyoruz.
   # --------------------------------------------------------
   config_file:
     text: |

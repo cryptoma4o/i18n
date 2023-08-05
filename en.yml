@@ -79,8 +79,6 @@ en:
       Username: `%<username>s`
 
       Password: `%<password>s`
-
-      You have %<secs>s seconds to copy your credentials, and we will hide them. No worries, they're permanent, but to keep the data secured we limit the time you may see it on the screen.
   # --------------------------------------------------------
   config_file:
     text: |
