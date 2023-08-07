@@ -10,6 +10,9 @@ en:
     lang_custom: 🔧 New Language
     help: ℹ️ Help
     delete_message: 🥷 Delete Message
+    settings: 🔧 Settings
+    settings_notifications_enable: 🔕 Enable Notifications
+    settings_notifications_disable: 🔔 Disable Notifications
   # --------------------------------------------------------
   help:
     text: |
@@ -22,6 +25,8 @@ en:
       💸 /subscription - Manage your subscription
 
       🌎 /lang - Manage the bot language
+
+      🔧 /settings - Manage the settings
 
       ℹ️ /help - Get the commands list
 
@@ -100,6 +105,10 @@ en:
       *🔧 New Language*
 
       Please feel free to contribute us to explore more languages or fixing typos. More information is available at the page: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  settings:
+    text: |
+      *🔧 Settings*
   # --------------------------------------------------------
   unknown:
     text: |

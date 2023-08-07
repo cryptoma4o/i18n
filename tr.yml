@@ -10,6 +10,9 @@ tr:
     lang_custom: 🔧 Yeni Dil
     help: ℹ️ Yardım
     delete_message: 🥷 Mesajı Sil
+    settings: 🔧 Ayarlar
+    settings_notifications_enable: 🔕 Bildirimleri Etkinleştir
+    settings_notifications_disable: 🔔 Bildirimleri devre dışı bırak
   # --------------------------------------------------------
   help:
     text: |
@@ -22,6 +25,8 @@ tr:
       💸 /subscription - Abonelik
 
       🌎 /lang - Dil
+
+      🔧 /settings - Ayarları Yönet
 
       ℹ️ /help - Yardım
 
@@ -100,6 +105,10 @@ tr:
       *🔧 Yeni Dil*
 
       Botumuza yeni bir dil ekleyebilirsiniz, bunun için deposumuzda uygun bir dosya oluşturmanız yeterlidir. Lütfen talimatları takip edin: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  settings:
+    text: |
+      *🔧 Ayarlar*
   # --------------------------------------------------------
   unknown:
     text: |
