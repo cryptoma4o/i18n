@@ -25,7 +25,7 @@ en:
 
       ℹ️ /help - Get the commands list
 
-      🤖 @KebabVPNSupport - Support chat
+      🤖 @KebabSupport - Get a support
   # --------------------------------------------------------
   start:
     text: |
@@ -37,7 +37,7 @@ en:
     text: |
       🌟 *Congratulations!* 🌟
 
-      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @KebabVPNSupport! 🫶
+      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @KebabSupport! 🫶
 
       Your subscription ends at: *%<exp>s*
   # --------------------------------------------------------
@@ -64,7 +64,7 @@ en:
 
       USDT deposits are calculated like USD according to effective pricing. For example, if you want to pay for 12 months, just transfer `49.99` USDT. You may transfer any amount you want, the subscription end date will be calculated accordingly in a proportion.
 
-      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @KebabVPNSupport chat.
+      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @KebabSupport.
   # --------------------------------------------------------
   config:
     text: |

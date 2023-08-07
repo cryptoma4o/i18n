@@ -25,7 +25,7 @@ tr:
 
       ℹ️ /help - Yardım
 
-      🤖 @KebabVPNSupport - Destek
+      🤖 @KebabSupport - Destek
   # --------------------------------------------------------
   start:
     text: |
@@ -37,7 +37,7 @@ tr:
     text: |
       🌟 *Tebrikler!* 🌟
 
-      *%<days>s* gün boyunca VPN kullanımı kazandınız! Deneyiminizi @KebabVPNSupport ile paylaşın! 🫶
+      *%<days>s* gün boyunca VPN kullanımı kazandınız! Deneyiminizi @KebabSupport ile paylaşın! 🫶
 
       Aboneliğinizin son kullanma tarihi: *%<exp>s*
   # --------------------------------------------------------
@@ -64,7 +64,7 @@ tr:
 
       USDT yatırma işlemleri USD'ye göre hesaplanır. Örneğin, 12 ay için ödeme yapmak için sadece `49.99` USDT göndermeniz yeterlidir. Herhangi bir miktar gönderebilirsiniz, abonelik süreniz tarife bedeline göre otomatik olarak hesaplanacaktır.
 
-      Ödemenizin geçerli sayılması için işleminizin *20 onay* alması gerekmektedir, bu nedenle biraz beklemeniz gerekebilir. İşleminiz 10 dakika beklemenin ardından hala onaylanmamışsa, lütfen @KebabVPNSupport ile iletişime geçin.
+      Ödemenizin geçerli sayılması için işleminizin *20 onay* alması gerekmektedir, bu nedenle biraz beklemeniz gerekebilir. İşleminiz 10 dakika beklemenin ardından hala onaylanmamışsa, lütfen @KebabSupport ile iletişime geçin.
   # --------------------------------------------------------
   config:
     text: |
