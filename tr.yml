@@ -51,9 +51,9 @@ tr:
     ico_no: ❌
     menu:
       crypto: 🤑 USDT ile Öde (TRC-20, herhangi bir miktar)
-      sub_1_mo: 💵 1 ay - 4.99 USD
-      sub_12_mo: 💵 12 ay - 49.99 USD (%20 indirim)
-      sub_36_mo: 💵 36 ay - 89.99 USD (%50 indirim)
+      plan_1_mo: 💵 1 ay - 4.99 USD
+      plan_12_mo: 💵 12 ay - 49.99 USD (%20 indirim)
+      plan_36_mo: 💵 36 ay - 89.99 USD (%50 indirim)
     text: |
       *Aboneliğiniz:*
 
