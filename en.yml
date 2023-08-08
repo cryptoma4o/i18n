@@ -51,9 +51,9 @@ en:
     ico_no: ❌
     menu:
       crypto: 🤑 Pay using USDT (TRC-20, any amount)
-      fiat_1_mo: 💵 1 Month - 4.99 USD
-      fiat_12_mo: 💵 12 Months - 49.99 USD (20% OFF)
-      fiat_36_mo: 💵 36 Months - 89.99 USD (50% OFF)
+      sub_1_mo: 💵 1 Month - 4.99 USD
+      sub_12_mo: 💵 12 Months - 49.99 USD (20% OFF)
+      sub_36_mo: 💵 36 Months - 89.99 USD (50% OFF)
     text: |
       *Your subscription:*
 
