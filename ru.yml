@@ -60,6 +60,10 @@ ru:
       Активна до: *%<exp>s* %<ico>s (%<days>s дней)
       Совершая платеж, вы соглашаетесь с [правилами сервиса](https://kebabvpn.com/terms-and-conditions).
   # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
   sub_crypto:
     text: |
       *Адрес TRC-20 для оплаты*:

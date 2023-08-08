@@ -60,6 +60,10 @@ tr:
       Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
       Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms-and-conditions) kabul etmiş olursunuz.
   # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
   sub_crypto:
     text: |
       *Ödeme için TRC-20 Adresi*:

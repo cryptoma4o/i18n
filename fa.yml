@@ -60,6 +60,10 @@ fa:
       تا تاریخ: *%<exp>s* %<ico>s (%<days>s روز)
       با پرداخت موافقت می‌کنید با [شرایط سرویس](https://kebabvpn.com/terms-and-conditions).
   # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
   sub_crypto:
     text: |
       *آدرس TRC-20 برای پرداخت*:

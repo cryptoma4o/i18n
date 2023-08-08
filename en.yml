@@ -60,6 +60,10 @@ en:
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
       By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
   # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
   sub_crypto:
     text: |
       *Your top-up TRC-20 address*:
