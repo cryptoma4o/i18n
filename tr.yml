@@ -1,10 +1,12 @@
 tr:
   menu:
     home: 🏠 Ana Sayfa
+    home_short: 🏠 Ana Sayfa
     config: ⚙️ Konfigürasyonlar
     config_manual: 🔑 Manuel (Kullanıcı Adı + Parola) 🌐
     subscription: 💸 Abonelik
     subscription_back: 💸 Aboneliğe Geri Dön
+    subscription_back_short: 💸 Abonelik
     lang: 🌎 Dil
     lang_back: 🌎 Dillere Geri Dön
     lang_custom: 🔧 Yeni Dil
@@ -13,6 +15,7 @@ tr:
     settings: 🔧 Ayarlar
     settings_notifications_enable: 🔕 Bildirimleri Etkinleştir
     settings_notifications_disable: 🔔 Bildirimleri devre dışı bırak
+    subscription_management_stripe: 💸 Abonelik (Stripe)
   # --------------------------------------------------------
   help:
     text: |
@@ -59,6 +62,20 @@ tr:
 
       Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
       Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms-and-conditions) kabul etmiş olursunuz.
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
   # --------------------------------------------------------
   plan_unknown:
     text: |

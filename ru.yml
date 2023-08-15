@@ -1,10 +1,12 @@
 ru:
   menu:
     home: 🏠 Домой
+    home_short: 🏠 Домой
     config: ⚙️ Конфигурации
     config_manual: 🔑 Ручной (Логин + Пароль) 🌐
     subscription: 💸 Подписка
     subscription_back: 💸 Обратно к подписке
+    subscription_back_short: 💸 Вернуться
     lang: 🌎 Язык
     lang_back: 🌎 Обратно к языкам
     lang_custom: 🔧 Новый язык
@@ -13,6 +15,7 @@ ru:
     settings: 🔧 Настройки
     settings_notifications_enable: 🔕 Включить уведомления
     settings_notifications_disable: 🔔 Выключить уведомления
+    subscription_management_stripe: 💸 Управление подпиской (Stripe)
   # --------------------------------------------------------
   help:
     text: |
@@ -59,6 +62,20 @@ ru:
 
       Активна до: *%<exp>s* %<ico>s (%<days>s дней)
       Совершая платеж, вы соглашаетесь с [правилами сервиса](https://kebabvpn.com/terms-and-conditions).
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
   # --------------------------------------------------------
   plan_unknown:
     text: |

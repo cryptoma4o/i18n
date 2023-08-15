@@ -1,10 +1,12 @@
 fa:
   menu:
     home: 🏠 خانه
+    home_short: 🏠 خانه
     config: ⚙️ پیکربندی‌ها
     config_manual: 🔑 دستی (نام کاربری + رمز عبور) 🌐
     subscription: 💸 اشتراک
     subscription_back: 💸 بازگشت به اشتراک
+    subscription_back_short: 💸 اشتراک
     lang: 🌎 زبان
     lang_back: 🌎 بازگشت به زبان‌ها
     lang_custom: 🔧 زبان جدید
@@ -13,6 +15,7 @@ fa:
     settings: 🔧 تنظیمات
     settings_notifications_enable: 🔕 اعلان ها را فعال کنید
     settings_notifications_disable: 🔔 غیر فعال کردن اعلانها
+    subscription_management_stripe: 💸 اشتراک (Stripe)
   # --------------------------------------------------------
   help:
     text: |
@@ -59,6 +62,20 @@ fa:
 
       تا تاریخ: *%<exp>s* %<ico>s (%<days>s روز)
       با پرداخت موافقت می‌کنید با [شرایط سرویس](https://kebabvpn.com/terms-and-conditions).
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
   # --------------------------------------------------------
   plan_unknown:
     text: |

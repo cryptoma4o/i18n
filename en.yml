@@ -1,10 +1,12 @@
 en:
   menu:
     home: 🏠 Home Menu
+    home_short: 🏠 Home
     config: ⚙️ Configurations
     config_manual: 🔑 Manual (Login + Password) 🌐
     subscription: 💸 Subscription
     subscription_back: 💸 Back to Subscription
+    subscription_back_short: 💸 Return Back
     lang: 🌎 Language
     lang_back: 🌎 Back to languages
     lang_custom: 🔧 New Language
@@ -13,6 +15,7 @@ en:
     settings: 🔧 Settings
     settings_notifications_enable: 🔕 Enable Notifications
     settings_notifications_disable: 🔔 Disable Notifications
+    subscription_management_stripe: 💸 Subscription (Stripe)
   # --------------------------------------------------------
   help:
     text: |
@@ -59,6 +62,20 @@ en:
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
       By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
   # --------------------------------------------------------
   plan_unknown:
     text: |

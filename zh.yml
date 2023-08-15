@@ -1,10 +1,12 @@
 zh:
   menu:
     home: 🏠 首页
+    home_short: 🏠 首页
     config: ⚙️ 设置
     config_manual: 🔑 手动配置 (用户名 + 密码) 🌐
     subscription: 💸 订阅
     subscription_back: 💸 返回订阅
+    subscription_back_short: 💸 返回订阅
     lang: 🌎 语言
     lang_back: 🌎 返回语言
     lang_custom: 🔧 新语言
@@ -13,6 +15,7 @@ zh:
     settings: 🔧 设置
     settings_notifications_enable: 🔕 启用通知
     settings_notifications_disable: 🔔 禁用通知
+    subscription_management_stripe: 💸 订阅 (Stripe)
   # --------------------------------------------------------
   help:
     text: |
@@ -59,6 +62,20 @@ zh:
 
       截止日期: *%<exp>s* %<ico>s (%<days>s 天)
       支付即代表您同意[服务条款](https://kebabvpn.com/terms-and-conditions)。
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
   # --------------------------------------------------------
   plan_unknown:
     text: |
