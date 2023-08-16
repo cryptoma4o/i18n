@@ -16,6 +16,7 @@ zh:
     settings_notifications_enable: 🔕 启用通知
     settings_notifications_disable: 🔔 禁用通知
     subscription_management_stripe: 💸 订阅 (Stripe)
+    referral: 💰 Referral
   # --------------------------------------------------------
   help:
     text: |
@@ -126,6 +127,20 @@ zh:
       *🔧 新语言*
 
       您可以向我们的机器人添加新的语言，只需在我们的存储库中创建相应的文件即可。请按照以下链接的说明进行操作：https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 Referral*
+
+      Your personal invite link is: `%<link>s`
+      Click to copy and send to your friends!
+
+      Users invited: *%<users_invited_count>s*
+      Referral balance: *%<ref_balance_usd>s*
+      VPN time earn rate: *%<ref_time_percent>s*
+      Money earn rate: *%<ref_money_percent>s*
+
+      Contact @KebabSupport to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |

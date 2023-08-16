@@ -16,6 +16,7 @@ en:
     settings_notifications_enable: 🔕 Enable Notifications
     settings_notifications_disable: 🔔 Disable Notifications
     subscription_management_stripe: 💸 Subscription (Stripe)
+    referral: 💰 Referral
   # --------------------------------------------------------
   help:
     text: |
@@ -126,6 +127,20 @@ en:
       *🔧 New Language*
 
       Please feel free to contribute us to explore more languages or fixing typos. More information is available at the page: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 Referral*
+
+      Your personal invite link is: `%<link>s`
+      Click to copy and send to your friends!
+
+      Users invited: *%<users_invited_count>s*
+      Referral balance: *%<ref_balance_usd>s*
+      VPN time earn rate: *%<ref_time_percent>s*
+      Money earn rate: *%<ref_money_percent>s*
+
+      Contact @KebabSupport to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |

@@ -16,6 +16,7 @@ tr:
     settings_notifications_enable: 🔕 Bildirimleri Etkinleştir
     settings_notifications_disable: 🔔 Bildirimleri devre dışı bırak
     subscription_management_stripe: 💸 Abonelik (Stripe)
+    referral: 💰 Referral
   # --------------------------------------------------------
   help:
     text: |
@@ -126,6 +127,20 @@ tr:
       *🔧 Yeni Dil*
 
       Botumuza yeni bir dil ekleyebilirsiniz, bunun için deposumuzda uygun bir dosya oluşturmanız yeterlidir. Lütfen talimatları takip edin: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 Referral*
+
+      Your personal invite link is: `%<link>s`
+      Click to copy and send to your friends!
+
+      Users invited: *%<users_invited_count>s*
+      Referral balance: *%<ref_balance_usd>s*
+      VPN time earn rate: *%<ref_time_percent>s*
+      Money earn rate: *%<ref_money_percent>s*
+
+      Contact @KebabSupport to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |
