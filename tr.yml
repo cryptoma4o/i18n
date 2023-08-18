@@ -62,7 +62,7 @@ tr:
       *Aboneliğiniz:*
 
       Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
-      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms-and-conditions) kabul etmiş olursunuz.
+      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms) kabul etmiş olursunuz.
   # --------------------------------------------------------
   payment_options:
     menu:
@@ -72,7 +72,7 @@ tr:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms-and-conditions).
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
 
       You're buying: *%<description>s*
 
