@@ -1,5 +1,6 @@
 en:
   menu:
+    back: ⬅️ Back
     home: 🏠 Home Menu
     home_short: 🏠 Home
     config: ⚙️ Configurations
@@ -17,6 +18,15 @@ en:
     settings_notifications_disable: 🔔 Disable Notifications
     subscription_management_stripe: 💸 Subscription (Stripe)
     referral: 💰 Referral
+    platform_apple:  Apple (iOS, MacOS)
+    platform_android: 📱 Android
+    platform_custom: 🔑 Other
+  # --------------------------------------------------------
+  platforms:
+    text: |
+      *Choose your platform:*
+
+      Choose the operating system you want to setup. You will get credentials and configuration files you need to use. Please be careful, a sensitive information might be displayed.
   # --------------------------------------------------------
   help:
     text: |
@@ -95,9 +105,9 @@ en:
   # --------------------------------------------------------
   config:
     text: |
-      *Your VPN configurations*
+      *Choose Location:*
 
-      Please choose an appropriate configuration for your device. Most of devices support IPSec protocol, but feel free to learn [Documentation](https://kebabvpn.com/guide).
+      Please choose the location you want to setup VPN configuration for. You will be asked for an operating system you use.
   # --------------------------------------------------------
   config_manual:
     text: |
@@ -107,11 +117,50 @@ en:
 
       Password: `%<password>s`
   # --------------------------------------------------------
-  config_file:
+  config_not_found:
     text: |
-      Please download the file and install it to your device. Once the configuration is downloaded and installed we highly recomment to delete this message manually or by pressing the button below.
-    error: |
       Configuration is not found!
+  # --------------------------------------------------------
+  config_apple:
+    text: |
+      Please download the file and install it to your device. Once the file is installed you need to confirm the installation of a profile in system settings.
+  # --------------------------------------------------------
+  config_android:
+    text: |
+      Please download the file and open it using the application https://play.google.com/store/apps/details?id=org.strongswan.android
+      You will be asked for username and password which are listed below.
+
+      Username:
+      `%<username>s`
+
+      Password:
+      `%<password>s`
+
+      (click to copy ^^)
+  # --------------------------------------------------------
+  config_custom:
+    text: |
+      *Custom Settings*
+
+      You can connect using system setting and following credentials:
+
+      Connection Name: `%<name>s`
+
+      Type: `%<type>s`
+
+      Server Host: `%<host>s`
+
+      Server Identity: `%<host>s`
+
+      IPSec Identifier: `%<username>s`
+
+      Username: `%<username>s`
+
+      Password: `%<password>s`
+
+      CA certificate: (leave empty, not used)
+
+      Server certificate: (leave empty, not used)
   # --------------------------------------------------------
   lang:
     text: |
