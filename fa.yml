@@ -50,6 +50,16 @@ fa:
 
       اشتراک شما تا تاریخ *%<exp>s* فعال است.
   # --------------------------------------------------------
+  sub_expired:
+    text: |
+      ❌ *Subscription Expired!* ❌
+
+      We're sorry to find your subscription expired at *%<exp>s*
+
+      You need to follow /subscription command to continue using services.
+
+      Please write us to @KebabSupport if you have any questions! 🫶
+  # --------------------------------------------------------
   subscription:
     ico_yes: ✅
     ico_no: ❌
