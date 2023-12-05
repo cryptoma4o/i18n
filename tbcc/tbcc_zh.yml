@@ -1,0 +1,161 @@
+tbcc_zh:
+  menu:
+    home: 🏠 首页
+    home_short: 🏠 首页
+    config: ⚙️ 设置
+    config_manual: 🔑 手动配置 (用户名 + 密码) 🌐
+    subscription: 💸 订阅
+    subscription_back: 💸 返回订阅
+    subscription_back_short: 💸 返回订阅
+    lang: 🌎 语言
+    lang_back: 🌎 返回语言
+    lang_custom: 🔧 新语言
+    help: ℹ️ 帮助
+    delete_message: 🥷 删除消息
+    settings: 🔧 设置
+    settings_notifications_enable: 🔕 启用通知
+    settings_notifications_disable: 🔔 禁用通知
+    subscription_management_stripe: 💸 订阅 (Stripe)
+    referral: 💰 Referral
+  # --------------------------------------------------------
+  help:
+    text: |
+      *可用命令:*
+
+      🏠 /start - 启动和注册
+
+      ⚙️ /config - 设置
+
+      💸 /subscription - 订阅
+
+      🌎 /lang - 语言
+
+      🔧 /settings - 管理设置
+
+      ℹ️ /help - 帮助
+
+      🤖 @KebabSupport - 支持
+  # --------------------------------------------------------
+  start:
+    text: |
+      *🌟 欢迎! 🌟*
+
+      感谢选择 [KebabVPN](https://kebabvpn.com)。要开始使用VPN，请点击 *设置* 按钮并下载所需的文件，然后在设备上安装。详细说明可在 https://kebabvpn.com 上找到。所有可用的机器人命令 - /help。
+  # --------------------------------------------------------
+  sub_extended:
+    text: |
+      🌟 *祝贺!* 🌟
+
+      您获得 *%<days>s* 天的VPN使用权！请与 @KebabSupport 分享您的体验！🫶
+
+      您的订阅有效期至: *%<exp>s*
+  # --------------------------------------------------------
+  sub_expired:
+    text: |
+      ❌ *Subscription Expired!* ❌
+
+      We're sorry to find your subscription expired at *%<exp>s*
+
+      You need to follow /subscription command to continue using services.
+
+      Please write us to @KebabSupport if you have any questions! 🫶
+  # --------------------------------------------------------
+  subscription:
+    ico_yes: ✅
+    ico_no: ❌
+    menu:
+      crypto: 🤑 使用USDT支付 (TRC-20, 任意金额)
+      plan_1_mo: 💵 1个月 - 4.99美元
+      plan_12_mo: 💵 12个月 - 49.99美元（享受20%折扣）
+      plan_36_mo: 💵 36个月 - 89.99美元（享受50%折扣）
+    text: |
+      *您的订阅:*
+
+      截止日期: *%<exp>s* %<ico>s (%<days>s 天)
+      支付即代表您同意[服务条款](https://kebabvpn.com/terms)。
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
+  # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
+  sub_crypto:
+    text: |
+      *用于支付的TRC-20地址*:
+
+      `%<addr_trc20>s`
+      (点击以复制)
+
+      使用USDT支付的金额将根据美元进行计算。例如，只需发送 `49.99` USDT 即可支付12个月的费用。您可以发送任意金额，您的订阅期限将根据费用的比例自动计算。
+
+      为了确认您的支付，需要等待 *20个确认* 以确保交易完成。请稍等片刻。一旦交易被确认，您将收到通知。如果在等待10分钟后您的交易仍未得到确认，请与 @KebabSupport 联系。
+  # --------------------------------------------------------
+  config:
+    text: |
+      *您的VPN配置*
+
+      请为您的设备选择适当的配置。大多数手机和系统都支持IPSec协议。详细说明请参阅[文档](https://kebabvpn.com/guide)。
+  # --------------------------------------------------------
+  config_manual:
+    text: |
+      *您的账户信息*
+
+      用户名: `%<username>s`
+
+      密码: `%<password>s`
+  # --------------------------------------------------------
+  config_file:
+    text: |
+      下载文件并在您的设备上安装。完成后，我们强烈建议您点击下面的按钮删除此消息。
+    error: |
+      找不到配置！
+  # --------------------------------------------------------
+  lang:
+    text: |
+      *🌎 选择语言:*
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+    tr: 🇹🇷 Türkiye 
+    zh: 🇨🇳 中文
+    fa: 🇮🇷 فارسی
+  # --------------------------------------------------------
+  lang_custom:
+    text: |
+      *🔧 新语言*
+
+      您可以向我们的机器人添加新的语言，只需在我们的存储库中创建相应的文件即可。请按照以下链接的说明进行操作：https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 Referral*
+
+      Your personal invite link is: `%<link>s`
+      Click to copy and send to your friends!
+
+      Users invited: *%<users_invited_count>s*
+      Referral balance: *%<ref_balance_usd>s*
+      VPN time earn rate: *%<ref_time_percent>s*
+      Money earn rate: *%<ref_money_percent>s*
+
+      Contact @KebabSupport to provide your requisites for money withdrawal.
+  # --------------------------------------------------------
+  settings:
+    text: |
+      *🔧 设置*
+  # --------------------------------------------------------
+  unknown:
+    text: |
+      未知命令，请运行 /help 查看所有命令！

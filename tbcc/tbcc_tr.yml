@@ -1,0 +1,161 @@
+tbcc_tr:
+  menu:
+    home: 🏠 Ana Sayfa
+    home_short: 🏠 Ana Sayfa
+    config: ⚙️ Konfigürasyonlar
+    config_manual: 🔑 Manuel (Kullanıcı Adı + Parola) 🌐
+    subscription: 💸 Abonelik
+    subscription_back: 💸 Aboneliğe Geri Dön
+    subscription_back_short: 💸 Abonelik
+    lang: 🌎 Dil
+    lang_back: 🌎 Dillere Geri Dön
+    lang_custom: 🔧 Yeni Dil
+    help: ℹ️ Yardım
+    delete_message: 🥷 Mesajı Sil
+    settings: 🔧 Ayarlar
+    settings_notifications_enable: 🔕 Bildirimleri Etkinleştir
+    settings_notifications_disable: 🔔 Bildirimleri devre dışı bırak
+    subscription_management_stripe: 💸 Abonelik (Stripe)
+    referral: 💰 Referral
+  # --------------------------------------------------------
+  help:
+    text: |
+      *Kullanılabilir Komutlar:*
+
+      🏠 /start - Başlatma ve Kayıt
+
+      ⚙️ /config - Konfigürasyonlar
+
+      💸 /subscription - Abonelik
+
+      🌎 /lang - Dil
+
+      🔧 /settings - Ayarları Yönet
+
+      ℹ️ /help - Yardım
+
+      🤖 @KebabSupport - Destek
+  # --------------------------------------------------------
+  start:
+    text: |
+      *🌟 Hoş Geldiniz! 🌟*
+
+      [KebabVPN](https://kebabvpn.com)'i seçtiğiniz için teşekkür ederiz. VPN'i kullanmaya başlamak için *Konfigürasyonlar* düğmesini tıklayarak indirilmesi gereken dosyayı indirebilir ve cihazınıza yükleyebilirsiniz. Detaylı talimatlar https://kebabvpn.com adresinde mevcuttur. Tüm mevcut bot komutları - /help.
+  # --------------------------------------------------------
+  sub_extended:
+    text: |
+      🌟 *Tebrikler!* 🌟
+
+      *%<days>s* gün boyunca VPN kullanımı kazandınız! Deneyiminizi @KebabSupport ile paylaşın! 🫶
+
+      Aboneliğinizin son kullanma tarihi: *%<exp>s*
+  # --------------------------------------------------------
+  sub_expired:
+    text: |
+      ❌ *Subscription Expired!* ❌
+
+      We're sorry to find your subscription expired at *%<exp>s*
+
+      You need to follow /subscription command to continue using services.
+
+      Please write us to @KebabSupport if you have any questions! 🫶
+  # --------------------------------------------------------
+  subscription:
+    ico_yes: ✅
+    ico_no: ❌
+    menu:
+      crypto: 🤑 USDT ile Öde (TRC-20, herhangi bir miktar)
+      plan_1_mo: 💵 1 ay - 4.99 USD
+      plan_12_mo: 💵 12 ay - 49.99 USD (%20 indirim)
+      plan_36_mo: 💵 36 ay - 89.99 USD (%50 indirim)
+    text: |
+      *Aboneliğiniz:*
+
+      Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
+      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms) kabul etmiş olursunuz.
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Card (subscription)
+    text: |
+      *Your subscription:*
+
+      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
+      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+
+      You're buying: *%<description>s*
+
+      Please, choose payment method:
+  # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+  # --------------------------------------------------------
+  sub_crypto:
+    text: |
+      *Ödeme için TRC-20 Adresi*:
+
+      `%<addr_trc20>s`
+      (kopyalamak için dokunun)
+
+      USDT yatırma işlemleri USD'ye göre hesaplanır. Örneğin, 12 ay için ödeme yapmak için sadece `49.99` USDT göndermeniz yeterlidir. Herhangi bir miktar gönderebilirsiniz, abonelik süreniz tarife bedeline göre otomatik olarak hesaplanacaktır.
+
+      Ödemenizin geçerli sayılması için işleminizin *20 onay* alması gerekmektedir, bu nedenle biraz beklemeniz gerekebilir. İşleminiz 10 dakika beklemenin ardından hala onaylanmamışsa, lütfen @KebabSupport ile iletişime geçin.
+  # --------------------------------------------------------
+  config:
+    text: |
+      *VPN Konfigürasyonunuz*
+
+      Lütfen cihazınıza uygun bir konfigürasyon seçin. Çoğu telefon ve sistem IPSec protokolünü destekler. Detaylı talimatlar için [belgelendirmeye](https://kebabvpn.com/guide) bakın.
+  # --------------------------------------------------------
+  config_manual:
+    text: |
+      *Kullanıcı Bilgileriniz*
+
+      Kullanıcı Adı: `%<username>s`
+
+      Parola: `%<password>s`
+  # --------------------------------------------------------
+  config_file:
+    text: |
+      Dosyayı indirin ve cihazınıza yükleyin. Bunun tamamlandığına emin olduktan sonra lütfen aşağıdaki düğmeye tıklayarak bu mesajı silmenizi öneririz.
+    error: |
+      Konfigürasyon bulunamadı!
+  # --------------------------------------------------------
+  lang:
+    text: |
+      *🌎 Dil Seçin:*
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+    tr: 🇹🇷 Türkiye 
+    zh: 🇨🇳 中文
+    fa: 🇮🇷 فارسی
+  # --------------------------------------------------------
+  lang_custom:
+    text: |
+      *🔧 Yeni Dil*
+
+      Botumuza yeni bir dil ekleyebilirsiniz, bunun için deposumuzda uygun bir dosya oluşturmanız yeterlidir. Lütfen talimatları takip edin: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 Referral*
+
+      Your personal invite link is: `%<link>s`
+      Click to copy and send to your friends!
+
+      Users invited: *%<users_invited_count>s*
+      Referral balance: *%<ref_balance_usd>s*
+      VPN time earn rate: *%<ref_time_percent>s*
+      Money earn rate: *%<ref_money_percent>s*
+
+      Contact @KebabSupport to provide your requisites for money withdrawal.
+  # --------------------------------------------------------
+  settings:
+    text: |
+      *🔧 Ayarlar*
+  # --------------------------------------------------------
+  unknown:
+    text: |
+      Bilinmeyen komut, tüm komutları görmek için /help komutunu çalıştırın!
