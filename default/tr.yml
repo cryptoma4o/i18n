@@ -117,9 +117,7 @@ tr:
     text: |
       *Konumunuzu Seçin:*
 
-      Lütfen VPN
-
- yapılandırma dosyasını kurmak istediğiniz konumu seçin. Kullandığınız işletim sisteminden size sorulacaktır.
+      Lütfen VPN yapılandırma dosyasını kurmak istediğiniz konumu seçin. Kullandığınız işletim sisteminden size sorulacaktır.
   # --------------------------------------------------------
   config_manual:
     text: |
@@ -177,11 +175,11 @@ tr:
   lang:
     text: |
       *🌎 Dilinizi Seçin:*
-    en: 🇬🇧 İngilizce
-    ru: 🇷🇺 Rusça
-    tr: 🇹🇷 Türkçe 
-    zh: 🇨🇳 Çince
-    fa: 🇮🇷 Farsça
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+    tr: 🇹🇷 Türkiye
+    zh: 🇨🇳 中文
+    fa: 🇮🇷 فارسی
   # --------------------------------------------------------
   lang_custom:
     text: |

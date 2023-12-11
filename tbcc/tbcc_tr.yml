@@ -21,11 +21,13 @@ tbcc_tr:
     platform_apple:  Apple (iOS, MacOS)
     platform_android: 📱 Android
     platform_custom: 🔑 Diğer
+  # --------------------------------------------------------
   platforms:
     text: |
       *Platformunuzu Seçin:*
 
       Kurmak istediğiniz işletim sistemini seçin. Kullanmanız gereken kimlik bilgileri ve konfigürasyon dosyalarını alacaksınız. Lütfen dikkatli olun, hassas bilgiler görüntülenebilir.
+  # --------------------------------------------------------
   help:
     text: |
       *Mevcut Komutlar:*
@@ -43,13 +45,17 @@ tbcc_tr:
       ℹ️ /help - Komut listesini alın
 
       🤖 @botstorm - Destek alın
+  # --------------------------------------------------------
   start:
     text: |
       *🌟 Hoş geldiniz! 🌟*
 
       TBCC VPN'e hoş geldiniz - çevrimiçi güvenlik ve anonimlik dünyasında güvenilir bir arkadaşınız! Seçiminiz için teşekkür ederiz ve ekibimiz güvenli bir ağ sağlamak için hazır.
+
       VPN kullanmaya başlamak için sadece aşağıdaki 'Konfigürasyonlar' düğmesine basın ve cihazınıza kurulması gereken konfigürasyon dosyasını alın. Ayrıntılı talimatlar web sitemizde https://tbccvpn.com adresinde bulunmaktadır. Tüm seçeneklere /help komutunu çalıştırarak da erişebilirsiniz.
+
       TBCC VPN'i tercih ettiğiniz için teşekkür ederiz. Çevrimiçi yolculuğunuzun güvenli ve anonim olduğundan emin olmaktan gurur duyuyoruz. Bağlantınızı kurun ve güvenli çevrimiçi gezmenin özgürlüğünün tadını çıkarın!
+  # --------------------------------------------------------
   sub_extended:
     text: |
       🌟 *Tebrikler!* 🌟
@@ -57,6 +63,7 @@ tbcc_tr:
       VPN kullanım süreniz *%<days>s* gün! Geri bildiriminizi @botstorm'da bize yazmaktan çekinmeyin! 🫶
 
       Aboneliğinizin sona erme tarihi: *%<exp>s*
+  # --------------------------------------------------------
   sub_expired:
     text: |
       ❌ *Abonelik Süresi Doldu!* ❌
@@ -66,6 +73,7 @@ tbcc_tr:
       Hizmetleri kullanmaya devam etmek için /subscription komutunu izlemeniz gerekiyor.
 
       Herhangi bir sorunuz varsa lütfen bize @botstorm'dan yazın! 🫶
+  # --------------------------------------------------------
   subscription:
     ico_yes: ✅
     ico_no: ❌
@@ -79,6 +87,7 @@ tbcc_tr:
 
       Bitiş tarihi: *%<exp>s* %<ico>s (%<days>s aktif gün)
       Ödeme yaparak Şartlar ve Koşullarımızı kabul etmiş olursunuz.
+  # --------------------------------------------------------
   payment_options:
     menu:
       pm_stripe_payment: 💳 Kart, WeChat, Alipay, ApplePay, GPay
@@ -92,9 +101,11 @@ tbcc_tr:
       Satın alıyorsunuz: *%<description>s*
 
       Lütfen ödeme yöntemini seçin:
+  # --------------------------------------------------------
   plan_unknown:
     text: |
       Plan devre dışı bırakılmış veya bilinmiyor! Satın alınabilir planları almak için /subscription komutunu çalıştırın.
+  # --------------------------------------------------------
   sub_crypto:
     text: |
       *USDT yükleme TRC-20 adresiniz*:
@@ -104,14 +115,14 @@ tbcc_tr:
 
       USDT yatırımları, etkili fiyatlandırmaya göre USD olarak hesaplanır. Örneğin, 12 ay için ödeme yapmak istiyorsanız, sadece `49.99` USDT transfer edin. Herhangi bir miktarı transfer edebilirsiniz, abonelik bitiş tarihi buna göre orantılı olarak hesaplanacaktır.
 
-      İşlemin işlenmesi için *20 onay* bekliyoruz, bu nedenle bir süre beklemeniz
-
- gerekebilir. İşlem işlendikten sonra depozitonuzun onayıyla ilgili bir bildirim alacaksınız. Depozitonuz hesaba geçmezse, lütfen bize @botstorm'da yazın.
+      İşlemin işlenmesi için *20 onay* bekliyoruz, bu nedenle bir süre beklemeniz gerekebilir. İşlem işlendikten sonra depozitonuzun onayıyla ilgili bir bildirim alacaksınız. Depozitonuz hesaba geçmezse, lütfen bize @botstorm'da yazın.
+  # --------------------------------------------------------
   config:
     text: |
       *Konumunuzu Seçin:*
 
       VPN yapılandırma dosyasını kurmak istediğiniz konumu seçin. Kullandığınız işletim sisteminden sizi soracak.
+  # --------------------------------------------------------
   config_manual:
     text: |
       *Kimlik Bilgileriniz*
@@ -119,12 +130,15 @@ tbcc_tr:
       Kullanıcı Adı: `%<username>s`
 
       Parola: `%<password>s`
+  # --------------------------------------------------------
   config_not_found:
     text: |
       Konfigürasyon bulunamadı!
+  # --------------------------------------------------------
   config_apple:
     text: |
       Lütfen dosyayı indirin ve cihazınıza kurun. Dosya kurulduktan sonra, profilin kurulumunu sistem ayarlarında onaylamanız gerekecek.
+  # --------------------------------------------------------
   config_android:
     text: |
       Lütfen dosyayı indirin ve uygulamayı https://download.strongswan.org/Android/strongSwan-2.4.2.apk adresinden açın
@@ -137,6 +151,7 @@ tbcc_tr:
       `%<password>s`
 
       (kopyalamak için tıklayın ^^)
+  # --------------------------------------------------------
   config_custom:
     text: |
       *Özel Ayarlar*
@@ -160,19 +175,22 @@ tbcc_tr:
       CA sertifikası: (boş bırakın, kullanılmaz)
 
       Sunucu sertifikası: (boş bırakın, kullanılmaz)
+  # --------------------------------------------------------
   lang:
     text: |
       *🌎 Dilinizi Seçin:*
-    en: 🇬🇧 İngilizce
-    ru: 🇷🇺 Rusça
-    tr: 🇹🇷 Türkçe
-    zh: 🇨🇳 Çince
-    fa: 🇮🇷 Farsça
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+    tr: 🇹🇷 Türkiye
+    zh: 🇨🇳 中文
+    fa: 🇮🇷 فارسی
+  # --------------------------------------------------------
   lang_custom:
     text: |
       *🔧 Yeni Dil*
 
       Daha fazla dil keşfetmemize veya yazım hatalarını düzeltmemize katkıda bulunmaktan çekinmeyin. Daha fazla bilgi için şu sayfaya göz atın: https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
   referral:
     text: |
       *💰 Referans*
@@ -186,6 +204,7 @@ tbcc_tr:
       Para kazanma oranı: *%<ref_money_percent>s*
 
       Para çekme için bilgilerinizi sağlamak için @botstorm ile iletişime geçin.
+  # --------------------------------------------------------
   settings:
     text: |
       *🔧 Ayarlar*
