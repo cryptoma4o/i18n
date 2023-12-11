@@ -208,7 +208,6 @@ tbcc_tr:
   settings:
     text: |
       *🔧 Ayarlar*
-  # --------------------------------------------------------
   unknown:
     text: |
       Bilinmeyen komut, lütfen tüm komutları göstermek için /help komutunu çalıştırın!
