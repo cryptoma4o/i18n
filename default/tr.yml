@@ -1,12 +1,13 @@
 tr:
   menu:
-    home: 🏠 Ana Sayfa
+    back: ⬅️ Geri
+    home: 🏠 Ana Menü
     home_short: 🏠 Ana Sayfa
     config: ⚙️ Konfigürasyonlar
-    config_manual: 🔑 Manuel (Kullanıcı Adı + Parola) 🌐
+    config_manual: 🔑 El ile (Giriş + Şifre) 🌐
     subscription: 💸 Abonelik
-    subscription_back: 💸 Aboneliğe Geri Dön
-    subscription_back_short: 💸 Abonelik
+    subscription_back: 💸 Aboneliğe Geri
+    subscription_back_short: 💸 Geri Dön
     lang: 🌎 Dil
     lang_back: 🌎 Dillere Geri Dön
     lang_custom: 🔧 Yeni Dil
@@ -14,143 +15,193 @@ tr:
     delete_message: 🥷 Mesajı Sil
     settings: 🔧 Ayarlar
     settings_notifications_enable: 🔕 Bildirimleri Etkinleştir
-    settings_notifications_disable: 🔔 Bildirimleri devre dışı bırak
+    settings_notifications_disable: 🔔 Bildirimleri Devre Dışı Bırak
     subscription_management_stripe: 💸 Abonelik (Stripe)
-    referral: 💰 Referral
+    referral: 💰 Referans
+    platform_apple:  Apple (iOS, MacOS)
+    platform_android: 📱 Android
+    platform_custom: 🔑 Diğer
+  # --------------------------------------------------------
+  platforms:
+    text: |
+      *Platformunuzu Seçin:*
+
+      Kurmak istediğiniz işletim sistemini seçin. Kullanmanız gereken kimlik bilgileri ve yapılandırma dosyalarını alacaksınız. Lütfen dikkatli olun, hassas bilgiler görüntülenebilir.
   # --------------------------------------------------------
   help:
     text: |
       *Kullanılabilir Komutlar:*
 
-      🏠 /start - Başlatma ve Kayıt
+      🏠 /start - Botu başlatın ve kaydolun
 
-      ⚙️ /config - Konfigürasyonlar
+      ⚙️ /config - Yapılandırmaları yönetin
 
-      💸 /subscription - Abonelik
+      💸 /subscription - Aboneliğinizi yönetin
 
-      🌎 /lang - Dil
+      🌎 /lang - Bot dilini yönetin
 
-      🔧 /settings - Ayarları Yönet
+      🔧 /settings - Ayarları yönetin
 
-      ℹ️ /help - Yardım
+      ℹ️ /help - Komut listesini alın
 
-      🤖 @KebabSupport - Destek
+      🤖 @KebabSupport - Destek alın
   # --------------------------------------------------------
   start:
     text: |
-      *🌟 Hoş Geldiniz! 🌟*
+      *🌟 Hoş geldiniz! 🌟*
 
-      [KebabVPN](https://kebabvpn.com)'i seçtiğiniz için teşekkür ederiz. VPN'i kullanmaya başlamak için *Konfigürasyonlar* düğmesini tıklayarak indirilmesi gereken dosyayı indirebilir ve cihazınıza yükleyebilirsiniz. Detaylı talimatlar https://kebabvpn.com adresinde mevcuttur. Tüm mevcut bot komutları - /help.
+      [KebabVPN](https://kebabvpn.com) seçtiğiniz için teşekkür ederiz. VPN kullanmaya başlamak için aşağıdaki *Konfigürasyonlar* düğmesine basmanız ve cihazınıza kurmanız gereken yapılandırma dosyasını almanız gerekiyor. Ayrıntılı kılavuz https://kebabvpn.com adresinde bulunmaktadır. Tüm seçenekler, /help komutunu çalıştırarak kullanılabilir.
   # --------------------------------------------------------
   sub_extended:
     text: |
       🌟 *Tebrikler!* 🌟
 
-      *%<days>s* gün boyunca VPN kullanımı kazandınız! Deneyiminizi @KebabSupport ile paylaşın! 🫶
+      *%<days>s* gün VPN kullanımı kazandınız! Geri bildiriminizi @KebabSupport'ta bize yazmaktan çekinmeyin! 🫶
 
-      Aboneliğinizin son kullanma tarihi: *%<exp>s*
+      Aboneliğiniz *%<exp>s* tarihinde sona eriyor.
   # --------------------------------------------------------
   sub_expired:
     text: |
-      ❌ *Subscription Expired!* ❌
+      ❌ *Abonelik Süresi Doldu!* ❌
 
-      We're sorry to find your subscription expired at *%<exp>s*
+      Aboneliğinizin süresinin *%<exp>s* tarihinde dolduğunu üzülerek öğrendik.
 
-      You need to follow /subscription command to continue using services.
+      Hizmetleri kullanmaya devam etmek için /subscription komutunu izlemeniz gerekiyor.
 
-      Please write us to @KebabSupport if you have any questions! 🫶
+      Herhangi bir sorunuz varsa lütfen bize @KebabSupport üzerinden yazın! 🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
     ico_no: ❌
     menu:
-      crypto: 🤑 USDT ile Öde (TRC-20, herhangi bir miktar)
-      plan_1_mo: 💵 1 ay - 4.99 USD
-      plan_12_mo: 💵 12 ay - 49.99 USD (%20 indirim)
-      plan_36_mo: 💵 36 ay - 89.99 USD (%50 indirim)
+      crypto: 🤑 USDT ile ödeme yapın (TRC-20, herhangi bir miktar)
+      plan_1_mo: 💵 1 Ay - 4.99 USD
+      plan_12_mo: 💵 12 Ay - 49.99 USD (20% İNDİRİM)
+      plan_36_mo: 💵 36 Ay - 89.99 USD (50% İNDİRİM)
     text: |
       *Aboneliğiniz:*
 
-      Bitiş Tarihi: *%<exp>s* %<ico>s (%<days>s gün)
-      Ödeme yaparak [hizmet şartlarını](https://kebabvpn.com/terms) kabul etmiş olursunuz.
+      Bitiş tarihi: *%<exp>s* %<ico>s (%<days>s aktif gün)
+      Ödeme yaparak [Kullanım Koşulları](https://kebabvpn.com/terms) ile anlaştığınızı kabul edersiniz.
   # --------------------------------------------------------
   payment_options:
     menu:
-      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
-      pm_stripe_subscription: 💳 Card (subscription)
+      pm_stripe_payment: 💳 Kart, WeChat, Alipay, ApplePay, GPay
+      pm_stripe_subscription: 💳 Kart (abonelik)
     text: |
-      *Your subscription:*
+      *Aboneliğiniz:*
 
-      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      Bitiş tarihi: *%<exp>s* %<ico>s (%<days>s aktif gün)
+      Ödeme yaparak [Kullanım Koşulları](https://kebabvpn.com/terms) ile anlaştığınızı kabul edersiniz.
 
-      You're buying: *%<description>s*
+      Satın alıyorsunuz: *%<description>s*
 
-      Please, choose payment method:
+      Lütfen ödeme yöntemini seçin:
   # --------------------------------------------------------
   plan_unknown:
     text: |
-      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+      Plan devre dışı bırakıldı veya bilinmiyor! Satın alınabilir planları görmek için /subscription komutunu çalıştırın.
   # --------------------------------------------------------
   sub_crypto:
     text: |
-      *Ödeme için TRC-20 Adresi*:
+      *TRC-20 adresinize yatırım yapın*:
 
       `%<addr_trc20>s`
-      (kopyalamak için dokunun)
+      (kopyalamak için tıklayın)
 
-      USDT yatırma işlemleri USD'ye göre hesaplanır. Örneğin, 12 ay için ödeme yapmak için sadece `49.99` USDT göndermeniz yeterlidir. Herhangi bir miktar gönderebilirsiniz, abonelik süreniz tarife bedeline göre otomatik olarak hesaplanacaktır.
+      USDT yatırımları etkin fiyatlandırmaya göre USD olarak hesaplanır. Örneğin, 12 ay için ödeme yapmak istiyorsanız, sadece `49.99` USDT transfer edin. Herhangi bir miktarı transfer edebilirsiniz, abonelik bitiş tarihi bu oranda hesaplanacaktır.
 
-      Ödemenizin geçerli sayılması için işleminizin *20 onay* alması gerekmektedir, bu nedenle biraz beklemeniz gerekebilir. İşleminiz 10 dakika beklemenin ardından hala onaylanmamışsa, lütfen @KebabSupport ile iletişime geçin.
+      İşlemin işlenmesi için *20 onayı* bekliyoruz, bu nedenle bir süre beklemeniz gerekebilir. İşlem işlendikten sonra, yatırımınızın onayını içeren bir bildirim alacaksınız. Yatırımınız hesaba geçmezse, lütfen bize @KebabSupport üzerinden yazın.
   # --------------------------------------------------------
   config:
     text: |
-      *VPN Konfigürasyonunuz*
+      *Konumunuzu Seçin:*
 
-      Lütfen cihazınıza uygun bir konfigürasyon seçin. Çoğu telefon ve sistem IPSec protokolünü destekler. Detaylı talimatlar için [belgelendirmeye](https://kebabvpn.com/guide) bakın.
+      Lütfen VPN
+
+ yapılandırma dosyasını kurmak istediğiniz konumu seçin. Kullandığınız işletim sisteminden size sorulacaktır.
   # --------------------------------------------------------
   config_manual:
     text: |
-      *Kullanıcı Bilgileriniz*
+      *Kimlik Bilgileriniz*
 
       Kullanıcı Adı: `%<username>s`
 
-      Parola: `%<password>s`
+      Şifre: `%<password>s`
   # --------------------------------------------------------
-  config_file:
+  config_not_found:
     text: |
-      Dosyayı indirin ve cihazınıza yükleyin. Bunun tamamlandığına emin olduktan sonra lütfen aşağıdaki düğmeye tıklayarak bu mesajı silmenizi öneririz.
-    error: |
       Konfigürasyon bulunamadı!
+  # --------------------------------------------------------
+  config_apple:
+    text: |
+      Lütfen dosyayı indirip cihazınıza kurun. Dosya kurulduktan sonra, sistem ayarlarında bir profilin kurulumunu onaylamanız gerekecektir.
+  # --------------------------------------------------------
+  config_android:
+    text: |
+      Lütfen dosyayı indirin ve şu uygulama kullanılarak açın: https://play.google.com/store/apps/details?id=org.strongswan.android
+      Aşağıda listelenen kullanıcı adı ve şifre istenecektir.
+
+      Kullanıcı Adı:
+      `%<username>s`
+
+      Şifre:
+      `%<password>s`
+
+      (kopyalamak için tıklayın ^^)
+  # --------------------------------------------------------
+  config_custom:
+    text: |
+      *Özel Ayarlar*
+
+      Sistem ayarlarını kullanarak ve aşağıdaki kimlik bilgilerini kullanarak bağlanabilirsiniz:
+
+      Bağlantı Adı: `%<name>s`
+
+      Tür: `%<type>s`
+
+      Sunucu Hostu: `%<host>s`
+
+      Sunucu Kimliği: `%<host>s`
+
+      IPSec Tanımlayıcı: `%<username>s`
+
+      Kullanıcı Adı: `%<username>s`
+
+      Şifre: `%<password>s`
+
+      CA sertifikası: (boş bırakın, kullanılmaz)
+
+      Sunucu sertifikası: (boş bırakın, kullanılmaz)
   # --------------------------------------------------------
   lang:
     text: |
-      *🌎 Dil Seçin:*
-    en: 🇬🇧 English
-    ru: 🇷🇺 Русский
-    tr: 🇹🇷 Türkiye 
-    zh: 🇨🇳 中文
-    fa: 🇮🇷 فارسی
+      *🌎 Dilinizi Seçin:*
+    en: 🇬🇧 İngilizce
+    ru: 🇷🇺 Rusça
+    tr: 🇹🇷 Türkçe 
+    zh: 🇨🇳 Çince
+    fa: 🇮🇷 Farsça
   # --------------------------------------------------------
   lang_custom:
     text: |
       *🔧 Yeni Dil*
 
-      Botumuza yeni bir dil ekleyebilirsiniz, bunun için deposumuzda uygun bir dosya oluşturmanız yeterlidir. Lütfen talimatları takip edin: https://github.com/KebabVPN/i18n
+      Lütfen daha fazla dil keşfetmek veya yazım hatalarını düzeltmek için bize katkıda bulunmaktan çekinmeyin. Daha fazla bilgi https://github.com/KebabVPN/i18n adresindedir.
   # --------------------------------------------------------
   referral:
     text: |
-      *💰 Referral*
+      *💰 Referans*
 
-      Your personal invite link is: `%<link>s`
-      Click to copy and send to your friends!
+      Kişisel davet bağlantınız: `%<link>s`
+      Kopyalamak ve arkadaşlarınıza göndermek için tıklayın!
 
-      Users invited: *%<users_invited_count>s*
-      Referral balance: *%<ref_balance_usd>s*
-      VPN time earn rate: *%<ref_time_percent>s*
-      Money earn rate: *%<ref_money_percent>s*
+      Davet edilen kullanıcılar: *%<users_invited_count>s*
+      Referans bakiyesi: *%<ref_balance_usd>s*
+      VPN süresi kazanma oranı: *%<ref_time_percent>s*
+      Para kazanma oranı: *%<ref_money_percent>s*
 
-      Contact @KebabSupport to provide your requisites for money withdrawal.
+      Para çekme için bilgilerinizi sağlamak için @KebabSupport ile iletişime geçin.
   # --------------------------------------------------------
   settings:
     text: |
@@ -158,4 +209,4 @@ tr:
   # --------------------------------------------------------
   unknown:
     text: |
-      Bilinmeyen komut, tüm komutları görmek için /help komutunu çalıştırın!
+      Bilinmeyen komut, lütfen tüm komutları listelemek için /help komutunu çalıştırın!
