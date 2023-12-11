@@ -44,19 +44,21 @@ tbcc_en:
 
       ℹ️ /help - Get the commands list
 
-      🤖 @KebabSupport - Get a support
+      🤖 @botstorm - Get a support
   # --------------------------------------------------------
   start:
     text: |
       *🌟 Welcome! 🌟*
 
-      Thank you for choosing [KebabVPN](https://kebabvpn.com). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://kebabvpn.com. All options are available by running /help command.
+      Welcome to TBCC VPN – your reliable companion in the world of online security and anonymity! We appreciate your choice, and our team is ready to provide you with secure networking.
+      To start using the VPN, simply press the 'Configurations' button below to obtain the configuration file, which needs to be installed on your device. Detailed instructions are available on our website at https://tbccvpn.com. All options are also accessible by running the /help command.
+      Thank you for choosing TBCC VPN. We take pride in ensuring your online journey is secure and anonymous. Set up your connection and enjoy the freedom of safe online browsing!
   # --------------------------------------------------------
   sub_extended:
     text: |
       🌟 *Congratulations!* 🌟
 
-      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @KebabSupport! 🫶
+      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @botstorm! 🫶
 
       Your subscription ends at: *%<exp>s*
   # --------------------------------------------------------
@@ -68,7 +70,7 @@ tbcc_en:
 
       You need to follow /subscription command to continue using services.
 
-      Please write us to @KebabSupport if you have any questions! 🫶
+      Please write us to @botstorm if you have any questions! 🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
@@ -82,7 +84,7 @@ tbcc_en:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      By making a payment you agree with our Terms and Conditions.
   # --------------------------------------------------------
   payment_options:
     menu:
@@ -92,7 +94,7 @@ tbcc_en:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      By making a payment you agree with our Terms and Conditions.
 
       You're buying: *%<description>s*
 
@@ -111,7 +113,7 @@ tbcc_en:
 
       USDT deposits are calculated like USD according to effective pricing. For example, if you want to pay for 12 months, just transfer `49.99` USDT. You may transfer any amount you want, the subscription end date will be calculated accordingly in a proportion.
 
-      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @KebabSupport.
+      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @botstorm.
   # --------------------------------------------------------
   config:
     text: |
@@ -137,7 +139,7 @@ tbcc_en:
   # --------------------------------------------------------
   config_android:
     text: |
-      Please download the file and open it using the application https://play.google.com/store/apps/details?id=org.strongswan.android
+      Please download the file and open it using the application https://download.strongswan.org/Android/strongSwan-2.4.2.apk
       You will be asked for username and password which are listed below.
 
       Username:
@@ -199,7 +201,7 @@ tbcc_en:
       VPN time earn rate: *%<ref_time_percent>s*
       Money earn rate: *%<ref_money_percent>s*
 
-      Contact @KebabSupport to provide your requisites for money withdrawal.
+      Contact @botstorm to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |
