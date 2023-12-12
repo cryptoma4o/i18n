@@ -1,12 +1,12 @@
 zh:
   menu:
-    home: 🏠 首页
-    home_short: 🏠 首页
-    config: ⚙️ 设置
-    config_manual: 🔑 手动配置 (用户名 + 密码) 🌐
+    back: ⬅️ 返回
+    home: 🏠 主菜单
+    home_short: 🏠 主页
+    config: ⚙️ 配置
     subscription: 💸 订阅
     subscription_back: 💸 返回订阅
-    subscription_back_short: 💸 返回订阅
+    subscription_back_short: 💸 返回
     lang: 🌎 语言
     lang_back: 🌎 返回语言
     lang_custom: 🔧 新语言
@@ -16,119 +16,167 @@ zh:
     settings_notifications_enable: 🔕 启用通知
     settings_notifications_disable: 🔔 禁用通知
     subscription_management_stripe: 💸 订阅 (Stripe)
-    referral: 💰 Referral
+    referral: 💰 推荐
+    platform_apple:  Apple (iOS, MacOS)
+    platform_android: 📱 Android
+    platform_custom: 🔑 其他
+  # --------------------------------------------------------
+  platforms:
+    text: |
+      *选择您的平台:*
+
+      选择您想设置的操作系统。您将获得所需的凭据和配置文件。请注意，可能会显示一些敏感信息。
   # --------------------------------------------------------
   help:
     text: |
       *可用命令:*
 
-      🏠 /start - 启动和注册
+      🏠 /start - 启动机器人并注册
 
-      ⚙️ /config - 设置
+      ⚙️ /config - 管理配置
 
-      💸 /subscription - 订阅
+      💸 /subscription - 管理您的订阅
 
-      🌎 /lang - 语言
+      🌎 /lang - 管理机器人语言
 
       🔧 /settings - 管理设置
 
-      ℹ️ /help - 帮助
+      ℹ️ /help - 获取命令列表
 
-      🤖 @KebabSupport - 支持
+      🤖 @KebabSupport - 获取支持
   # --------------------------------------------------------
   start:
     text: |
-      *🌟 欢迎! 🌟*
+      *🌟 欢迎！ 🌟*
 
-      感谢选择 [KebabVPN](https://kebabvpn.com)。要开始使用VPN，请点击 *设置* 按钮并下载所需的文件，然后在设备上安装。详细说明可在 https://kebabvpn.com 上找到。所有可用的机器人命令 - /help。
+      感谢您选择 [KebabVPN](https://kebabvpn.com)。要开始使用 VPN，请按下面的 *配置* 按钮，您将获得需要安装到设备上的配置文件。详细指南请参阅 https://kebabvpn.com。通过运行 /help 命令可访问所有选项。
   # --------------------------------------------------------
   sub_extended:
     text: |
-      🌟 *祝贺!* 🌟
+      🌟 *恭喜！* 🌟
 
-      您获得 *%<days>s* 天的VPN使用权！请与 @KebabSupport 分享您的体验！🫶
+      您获得了 *%<days>s* 天的 VPN 使用权！请随时在 @KebabSupport 中给我们写反馈！🫶
 
-      您的订阅有效期至: *%<exp>s*
+      您的订阅到期时间为：*%<exp>s*
   # --------------------------------------------------------
   sub_expired:
     text: |
-      ❌ *Subscription Expired!* ❌
+      ❌ *订阅已过期！* ❌
 
-      We're sorry to find your subscription expired at *%<exp>s*
+      很抱歉发现您的订阅在 *%<exp>s* 过期
 
-      You need to follow /subscription command to continue using services.
+      您需要执行 /subscription 命令以继续使用服务。
 
-      Please write us to @KebabSupport if you have any questions! 🫶
+      如果您有任何问题，请在 @KebabSupport 联系我们！🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
     ico_no: ❌
     menu:
-      crypto: 🤑 使用USDT支付 (TRC-20, 任意金额)
-      plan_1_mo: 💵 1个月 - 4.99美元
-      plan_12_mo: 💵 12个月 - 49.99美元（享受20%折扣）
-      plan_36_mo: 💵 36个月 - 89.99美元（享受50%折扣）
+      crypto: 🤑 使用 USDT 支付 (TRC-20，任意金额)
+      plan_1_mo: 💵 1 个月 - 4.99 美元
+      plan_12_mo: 💵 12 个月 - 49.99 美元 (20% OFF)
+      plan_36_mo: 💵 36 个月 - 89.99 美元 (50% OFF)
     text: |
       *您的订阅:*
 
-      截止日期: *%<exp>s* %<ico>s (%<days>s 天)
-      支付即代表您同意[服务条款](https://kebabvpn.com/terms)。
+      到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
+      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
   # --------------------------------------------------------
   payment_options:
     menu:
-      pm_stripe_payment: 💳 Card, WeChat, Alipay, ApplePay, GPay
-      pm_stripe_subscription: 💳 Card (subscription)
+      pm_stripe_payment: 💳 信用卡，WeChat，Alipay，ApplePay，GPay
+      pm_stripe_subscription: 💳 信用卡 (订阅)
     text: |
-      *Your subscription:*
+      *您的订阅:*
 
-      Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
+      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
 
-      You're buying: *%<description>s*
+      您正在购买：*%<description>s*
 
-      Please, choose payment method:
+      请选择付款方式：
   # --------------------------------------------------------
   plan_unknown:
     text: |
-      Plan is disabled or unknown! Run /subscription command to get plans available for purchase.
+      计划已禁用或未知！运行 /subscription 命令以获取可购买的计划。
   # --------------------------------------------------------
   sub_crypto:
     text: |
-      *用于支付的TRC-20地址*:
+      *您的充值 TRC-20 地址*：
 
       `%<addr_trc20>s`
       (点击以复制)
 
-      使用USDT支付的金额将根据美元进行计算。例如，只需发送 `49.99` USDT 即可支付12个月的费用。您可以发送任意金额，您的订阅期限将根据费用的比例自动计算。
+      根据有效价格，USDT 存款会被计算为美元。例如，如果您想支付 12 个月，只需转账 `49.99` USDT。您可以转账任意金额，到期日期将按比例计算。
 
-      为了确认您的支付，需要等待 *20个确认* 以确保交易完成。请稍等片刻。一旦交易被确认，您将收到通知。如果在等待10分钟后您的交易仍未得到确认，请与 @KebabSupport 联系。
+      我们等待 *20 个确认* 以处理交易，因此您需要等待一段时间。一旦交易处理完成，您将收到一条包含充值确认的通知。如果您的充值未到账，请随时在 @KebabSupport 中联系我们。
   # --------------------------------------------------------
   config:
     text: |
-      *您的VPN配置*
+      *选择位置:*
 
-      请为您的设备选择适当的配置。大多数手机和系统都支持IPSec协议。详细说明请参阅[文档](https://kebabvpn.com/guide)。
+      请选择要设置 VPN 配置的位置。系统将要求您选择所使用的操作系统。
   # --------------------------------------------------------
   config_manual:
     text: |
-      *您的账户信息*
+      *您的凭据*
 
-      用户名: `%<username>s`
+      用户名：%<username>s
 
-      密码: `%<password>s`
+      密码：%<password>s
   # --------------------------------------------------------
-  config_file:
+  config_not_found:
     text: |
-      下载文件并在您的设备上安装。完成后，我们强烈建议您点击下面的按钮删除此消息。
-    error: |
-      找不到配置！
+      未找到配置！
+  # --------------------------------------------------------
+  config_apple:
+    text: |
+      请下载文件并将其安装到您的设备上。安装文件后，您需要在系统设置中确认配置文件的安装。
+  # --------------------------------------------------------
+  config_android:
+    text: |
+      请下载文件并使用应用程序 https://play.google.com/store/apps/details?id=org.strongswan.android 打开它。
+      您将被要求输入以下用户名和密码。
+
+      用户名：
+      `%<username>s`
+
+      密码：
+      `%<password>s`
+
+      (点击 以复制 ^^)
+  # --------------------------------------------------------
+  config_custom:
+    text: |
+      *自定义设置*
+
+      您可以使用系统设置和以下凭据进行连接：
+
+      连接名称：%<name>s
+
+      类型：%<type>s
+
+      服务器主机：%<host>s
+
+      服务器标识：%<host>s
+
+      IPSec 标识符：%<username>s
+
+      用户名：%<username>s
+
+      密码：%<password>s
+
+      CA 证书：（留空，不使用）
+
+      服务器证书：（留空，不使用）
   # --------------------------------------------------------
   lang:
     text: |
-      *🌎 选择语言:*
+      *🌎 选择您的语言:*
     en: 🇬🇧 English
     ru: 🇷🇺 Русский
-    tr: 🇹🇷 Türkiye 
+    tr: 🇹🇷 Türkiye
     zh: 🇨🇳 中文
     fa: 🇮🇷 فارسی
   # --------------------------------------------------------
@@ -136,21 +184,21 @@ zh:
     text: |
       *🔧 新语言*
 
-      您可以向我们的机器人添加新的语言，只需在我们的存储库中创建相应的文件即可。请按照以下链接的说明进行操作：https://github.com/KebabVPN/i18n
+      请随时向我们贡献更多语言或修复拼写错误。有关更多信息，请访问页面：https://github.com/KebabVPN/i18n
   # --------------------------------------------------------
   referral:
     text: |
-      *💰 Referral*
+      *💰 推荐*
 
-      Your personal invite link is: `%<link>s`
-      Click to copy and send to your friends!
+      您的个人邀请链接为：%<link>s
+      单击复制并发送给您的朋友！
 
-      Users invited: *%<users_invited_count>s*
-      Referral balance: *%<ref_balance_usd>s*
-      VPN time earn rate: *%<ref_time_percent>s*
-      Money earn rate: *%<ref_money_percent>s*
+      已邀请用户：%<users_invited_count>s
+      推荐奖金余额：%<ref_balance_usd>s
+      VPN 时间获取率：%<ref_time_percent>s
+      货币获取率：%<ref_money_percent>s
 
-      Contact @KebabSupport to provide your requisites for money withdrawal.
+      联系 @KebabSupport 提供提款信息。
   # --------------------------------------------------------
   settings:
     text: |
@@ -158,4 +206,4 @@ zh:
   # --------------------------------------------------------
   unknown:
     text: |
-      未知命令，请运行 /help 查看所有命令！
+      未知命令，请运行 /help 以列出所有可用命令！
