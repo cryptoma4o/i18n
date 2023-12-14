@@ -1,5 +1,5 @@
 # Run Tests
 
 ```
-ruby run_tests.rb
+ruby -e 'require "psych"; files = Dir.glob("**/*.yml"); files.each{|file| puts("#{file}: OK") if Psych.load_file(file) }'
 ```
