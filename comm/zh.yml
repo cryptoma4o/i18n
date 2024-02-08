@@ -1,0 +1,209 @@
+zh:
+  menu:
+    back: ⬅️ 返回
+    home: 🏠 主菜单
+    home_short: 🏠 主页
+    config: ⚙️ 配置
+    subscription: 💸 订阅
+    subscription_back: 💸 返回订阅
+    subscription_back_short: 💸 返回
+    lang: 🌎 语言
+    lang_back: 🌎 返回语言
+    lang_custom: 🔧 新语言
+    help: ℹ️ 帮助
+    delete_message: 🥷 删除消息
+    settings: 🔧 设置
+    settings_notifications_enable: 🔕 启用通知
+    settings_notifications_disable: 🔔 禁用通知
+    subscription_management_stripe: 💸 订阅 (Stripe)
+    referral: 💰 推荐
+    platform_apple:  Apple (iOS, MacOS)
+    platform_android: 📱 Android
+    platform_custom: 🔑 其他
+  # --------------------------------------------------------
+  platforms:
+    text: |
+      *选择您的平台:*
+
+      选择您想设置的操作系统。您将获得所需的凭据和配置文件。请注意，可能会显示一些敏感信息。
+  # --------------------------------------------------------
+  help:
+    text: |
+      *可用命令:*
+
+      🏠 /start - 启动机器人并注册
+
+      ⚙️ /config - 管理配置
+
+      💸 /subscription - 管理您的订阅
+
+      🌎 /lang - 管理机器人语言
+
+      🔧 /settings - 管理设置
+
+      ℹ️ /help - 获取命令列表
+
+      🤖 @KebabSupport - 获取支持
+  # --------------------------------------------------------
+  start:
+    text: |
+      *🌟 欢迎！ 🌟*
+
+      感谢您选择 [Community VPN](https://kebabvpn.com)。要开始使用 VPN，请按下面的 *配置* 按钮，您将获得需要安装到设备上的配置文件。详细指南请参阅 https://kebabvpn.com。通过运行 /help 命令可访问所有选项。
+  # --------------------------------------------------------
+  sub_extended:
+    text: |
+      🌟 *恭喜！* 🌟
+
+      您获得了 *%<days>s* 天的 VPN 使用权！请随时在 @KebabSupport 中给我们写反馈！🫶
+
+      您的订阅到期时间为：*%<exp>s*
+  # --------------------------------------------------------
+  sub_expired:
+    text: |
+      ❌ *订阅已过期！* ❌
+
+      很抱歉发现您的订阅在 *%<exp>s* 过期
+
+      您需要执行 /subscription 命令以继续使用服务。
+
+      如果您有任何问题，请在 @KebabSupport 联系我们！🫶
+  # --------------------------------------------------------
+  subscription:
+    ico_yes: ✅
+    ico_no: ❌
+    menu:
+      crypto: 🤑 使用 USDT 支付 (TRC-20，任意金额)
+      plan_1_mo: 💵 1 个月 - 4.99 美元
+      plan_12_mo: 💵 12 个月 - 49.99 美元 (20% OFF)
+      plan_36_mo: 💵 36 个月 - 89.99 美元 (50% OFF)
+    text: |
+      *您的订阅:*
+
+      到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
+      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
+  # --------------------------------------------------------
+  payment_options:
+    menu:
+      pm_stripe_payment: 💳 信用卡，WeChat，Alipay，ApplePay，GPay
+      pm_stripe_subscription: 💳 信用卡 (订阅)
+    text: |
+      *您的订阅:*
+
+      到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
+      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
+
+      您正在购买：*%<description>s*
+
+      请选择付款方式：
+  # --------------------------------------------------------
+  plan_unknown:
+    text: |
+      计划已禁用或未知！运行 /subscription 命令以获取可购买的计划。
+  # --------------------------------------------------------
+  sub_crypto:
+    text: |
+      *您的充值 TRC-20 地址*：
+
+      `%<addr_trc20>s`
+      (点击以复制)
+
+      根据有效价格，USDT 存款会被计算为美元。例如，如果您想支付 12 个月，只需转账 `49.99` USDT。您可以转账任意金额，到期日期将按比例计算。
+
+      我们等待 *20 个确认* 以处理交易，因此您需要等待一段时间。一旦交易处理完成，您将收到一条包含充值确认的通知。如果您的充值未到账，请随时在 @KebabSupport 中联系我们。
+  # --------------------------------------------------------
+  config:
+    text: |
+      *选择位置:*
+
+      请选择要设置 VPN 配置的位置。系统将要求您选择所使用的操作系统。
+  # --------------------------------------------------------
+  config_manual:
+    text: |
+      *您的凭据*
+
+      用户名：%<username>s
+
+      密码：%<password>s
+  # --------------------------------------------------------
+  config_not_found:
+    text: |
+      未找到配置！
+  # --------------------------------------------------------
+  config_apple:
+    text: |
+      请下载文件并将其安装到您的设备上。安装文件后，您需要在系统设置中确认配置文件的安装。
+  # --------------------------------------------------------
+  config_android:
+    text: |
+      请下载文件并使用应用程序 https://play.google.com/store/apps/details?id=org.strongswan.android 打开它。
+      您将被要求输入以下用户名和密码。
+
+      用户名：
+      `%<username>s`
+
+      密码：
+      `%<password>s`
+
+      (点击 以复制 ^^)
+  # --------------------------------------------------------
+  config_custom:
+    text: |
+      *自定义设置*
+
+      您可以使用系统设置和以下凭据进行连接：
+
+      连接名称：%<name>s
+
+      类型：%<type>s
+
+      服务器主机：%<host>s
+
+      服务器标识：%<host>s
+
+      IPSec 标识符：%<username>s
+
+      用户名：%<username>s
+
+      密码：%<password>s
+
+      CA 证书：（留空，不使用）
+
+      服务器证书：（留空，不使用）
+  # --------------------------------------------------------
+  lang:
+    text: |
+      *🌎 选择您的语言:*
+    en: 🇬🇧 English
+    ru: 🇷🇺 Русский
+    tr: 🇹🇷 Türkiye
+    zh: 🇨🇳 中文
+    fa: 🇮🇷 فارسی
+  # --------------------------------------------------------
+  lang_custom:
+    text: |
+      *🔧 新语言*
+
+      请随时向我们贡献更多语言或修复拼写错误。有关更多信息，请访问页面：https://github.com/KebabVPN/i18n
+  # --------------------------------------------------------
+  referral:
+    text: |
+      *💰 推荐*
+
+      您的个人邀请链接为：%<link>s
+      单击复制并发送给您的朋友！
+
+      已邀请用户：%<users_invited_count>s
+      推荐奖金余额：%<ref_balance_usd>s
+      VPN 时间获取率：%<ref_time_percent>s
+      货币获取率：%<ref_money_percent>s
+
+      联系 @KebabSupport 提供提款信息。
+  # --------------------------------------------------------
+  settings:
+    text: |
+      *🔧 设置*
+  # --------------------------------------------------------
+  unknown:
+    text: |
+      未知命令，请运行 /help 以列出所有可用命令！
