@@ -43,7 +43,7 @@ best_en:
 
       ℹ️ /help - Get the commands list
 
-      🤖 @Best_VPN_support_bot - Get a support
+      🤖 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) - Get a support
   # --------------------------------------------------------
   start:
     text: |
@@ -55,7 +55,7 @@ best_en:
     text: |
       🌟 *Congratulations!* 🌟
 
-      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @Best_VPN_support_bot! 🫶
+      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot)! 🫶
 
       Your subscription ends at: *%<exp>s*
   # --------------------------------------------------------
@@ -67,7 +67,7 @@ best_en:
 
       You need to follow /subscription command to continue using services.
 
-      Please write us to @Best_VPN_support_bot if you have any questions! 🫶
+      Please write us to [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) if you have any questions! 🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
@@ -110,7 +110,7 @@ best_en:
 
       USDT deposits are calculated like USD according to effective pricing. For example, if you want to pay for 12 months, just transfer `49.99` USDT. You may transfer any amount you want, the subscription end date will be calculated accordingly in a proportion.
 
-      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @Best_VPN_support_bot.
+      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot).
   # --------------------------------------------------------
   config:
     text: |
@@ -198,7 +198,7 @@ best_en:
       VPN time earn rate: *%<ref_time_percent>s*
       Money earn rate: *%<ref_money_percent>s*
 
-      Contact @Best_VPN_support_bot to provide your requisites for money withdrawal.
+      Contact [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |

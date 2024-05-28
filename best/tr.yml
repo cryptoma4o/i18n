@@ -43,7 +43,7 @@ best_tr:
 
       ℹ️ /help - Komut listesini alın
 
-      🤖 @Best_VPN_support_bot - Destek alın
+      🤖 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) - Destek alın
   # --------------------------------------------------------
   start:
     text: |
@@ -55,7 +55,7 @@ best_tr:
     text: |
       🌟 *Tebrikler!* 🌟
 
-      *%<days>s* gün VPN kullanımı kazandınız! Geri bildiriminizi @Best_VPN_support_bot'ta bize yazmaktan çekinmeyin! 🫶
+      *%<days>s* gün VPN kullanımı kazandınız! Geri bildiriminizi [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot)'ta bize yazmaktan çekinmeyin! 🫶
 
       Aboneliğiniz *%<exp>s* tarihinde sona eriyor.
   # --------------------------------------------------------
@@ -67,7 +67,7 @@ best_tr:
 
       Hizmetleri kullanmaya devam etmek için /subscription komutunu izlemeniz gerekiyor.
 
-      Herhangi bir sorunuz varsa lütfen bize @Best_VPN_support_bot üzerinden yazın! 🫶
+      Herhangi bir sorunuz varsa lütfen bize [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) üzerinden yazın! 🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
@@ -110,7 +110,7 @@ best_tr:
 
       USDT yatırımları etkin fiyatlandırmaya göre USD olarak hesaplanır. Örneğin, 12 ay için ödeme yapmak istiyorsanız, sadece `49.99` USDT transfer edin. Herhangi bir miktarı transfer edebilirsiniz, abonelik bitiş tarihi bu oranda hesaplanacaktır.
 
-      İşlemin işlenmesi için *20 onayı* bekliyoruz, bu nedenle bir süre beklemeniz gerekebilir. İşlem işlendikten sonra, yatırımınızın onayını içeren bir bildirim alacaksınız. Yatırımınız hesaba geçmezse, lütfen bize @Best_VPN_support_bot üzerinden yazın.
+      İşlemin işlenmesi için *20 onayı* bekliyoruz, bu nedenle bir süre beklemeniz gerekebilir. İşlem işlendikten sonra, yatırımınızın onayını içeren bir bildirim alacaksınız. Yatırımınız hesaba geçmezse, lütfen bize [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) üzerinden yazın.
   # --------------------------------------------------------
   config:
     text: |
@@ -198,7 +198,7 @@ best_tr:
       VPN süresi kazanma oranı: *%<ref_time_percent>s*
       Para kazanma oranı: *%<ref_money_percent>s*
 
-      Para çekme için bilgilerinizi sağlamak için @Best_VPN_support_bot ile iletişime geçin.
+      Para çekme için bilgilerinizi sağlamak için [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) ile iletişime geçin.
   # --------------------------------------------------------
   settings:
     text: |
