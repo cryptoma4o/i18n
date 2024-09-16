@@ -1,4 +1,4 @@
-en:
+comm_en:
   menu:
     back: ⬅️ Back
     home: 🏠 Home Menu
@@ -49,7 +49,7 @@ en:
     text: |
       *🌟 Welcome! 🌟*
 
-      Thank you for choosing [KebabVPN](https://kebabvpn.com). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://kebabvpn.com. All options are available by running /help command.
+      Thank you for choosing [Community VPN](https://kebabvpn.com). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://kebabvpn.com. All options are available by running /help command.
   # --------------------------------------------------------
   sub_extended:
     text: |

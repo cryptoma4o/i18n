@@ -1,4 +1,4 @@
-zh:
+best_zh:
   menu:
     back: ⬅️ 返回
     home: 🏠 主菜单
@@ -43,19 +43,19 @@ zh:
 
       ℹ️ /help - 获取命令列表
 
-      🤖 @KebabSupport - 获取支持
+      🤖 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) - 获取支持
   # --------------------------------------------------------
   start:
     text: |
       *🌟 欢迎！ 🌟*
 
-      感谢您选择 [KebabVPN](https://kebabvpn.com)。要开始使用 VPN，请按下面的 *配置* 按钮，您将获得需要安装到设备上的配置文件。详细指南请参阅 https://kebabvpn.com。通过运行 /help 命令可访问所有选项。
+      感谢您选择 [BestVPN](https://bestvpn.ai)。要开始使用 VPN，请按下面的 *配置* 按钮，您将获得需要安装到设备上的配置文件。详细指南请参阅 https://bestvpn.ai。通过运行 /help 命令可访问所有选项。
   # --------------------------------------------------------
   sub_extended:
     text: |
       🌟 *恭喜！* 🌟
 
-      您获得了 *%<days>s* 天的 VPN 使用权！请随时在 @KebabSupport 中给我们写反馈！🫶
+      您获得了 *%<days>s* 天的 VPN 使用权！请随时在 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) 中给我们写反馈！🫶
 
       您的订阅到期时间为：*%<exp>s*
   # --------------------------------------------------------
@@ -67,7 +67,7 @@ zh:
 
       您需要执行 /subscription 命令以继续使用服务。
 
-      如果您有任何问题，请在 @KebabSupport 联系我们！🫶
+      如果您有任何问题，请在 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) 联系我们！🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
@@ -81,7 +81,7 @@ zh:
       *您的订阅:*
 
       到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
-      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
+      通过付款，您同意我们的[服务条款](https://bestvpn.ai/terms)。
   # --------------------------------------------------------
   payment_options:
     menu:
@@ -91,7 +91,7 @@ zh:
       *您的订阅:*
 
       到期日期：*%<exp>s* %<ico>s (活跃天数 %<days>s)
-      通过付款，您同意我们的[服务条款](https://kebabvpn.com/terms)。
+      通过付款，您同意我们的[服务条款](https://bestvpn.ai/terms)。
 
       您正在购买：*%<description>s*
 
@@ -110,7 +110,7 @@ zh:
 
       根据有效价格，USDT 存款会被计算为美元。例如，如果您想支付 12 个月，只需转账 `49.99` USDT。您可以转账任意金额，到期日期将按比例计算。
 
-      我们等待 *20 个确认* 以处理交易，因此您需要等待一段时间。一旦交易处理完成，您将收到一条包含充值确认的通知。如果您的充值未到账，请随时在 @KebabSupport 中联系我们。
+      我们等待 *20 个确认* 以处理交易，因此您需要等待一段时间。一旦交易处理完成，您将收到一条包含充值确认的通知。如果您的充值未到账，请随时在 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) 中联系我们。
   # --------------------------------------------------------
   config:
     text: |
@@ -198,7 +198,7 @@ zh:
       VPN 时间获取率：%<ref_time_percent>s
       货币获取率：%<ref_money_percent>s
 
-      联系 @KebabSupport 提供提款信息。
+      联系 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) 提供提款信息。
   # --------------------------------------------------------
   settings:
     text: |

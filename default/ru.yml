@@ -4,7 +4,6 @@ ru:
     home: 🏠 Главное меню
     home_short: 🏠 Главная
     config: ⚙️ Конфигурации
-    config_manual: 🔑 Ручной ввод (Логин + Пароль) 🌐
     subscription: 💸 Подписка
     subscription_back: 💸 Назад к подписке
     subscription_back_short: 💸 Вернуться
@@ -74,10 +73,10 @@ ru:
     ico_yes: ✅
     ico_no: ❌
     menu:
-      crypto: 🤑 Оплата с использованием USDT (TRC-20, любая сумма)
-      plan_1_mo: 💵 1 месяц - 4.99 USD
-      plan_12_mo: 💵 12 месяцев - 49.99 USD (20% скидка)
-      plan_36_mo: 💵 36 месяцев - 89.99 USD (50% скидка)
+      crypto: 🤑 USDT (TRC-20, любая сумма)
+      plan_1_mo: 💵 1 мес. - 4.99 USD
+      plan_12_mo: 💵 12 мес. - 49.99 USD (20% скидка)
+      plan_36_mo: 💵 36 мес. - 89.99 USD (50% скидка)
     text: |
       *Ваша подписка:*
 

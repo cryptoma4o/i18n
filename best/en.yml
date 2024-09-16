@@ -1,4 +1,4 @@
-en:
+best_en:
   menu:
     back: ⬅️ Back
     home: 🏠 Home Menu
@@ -43,19 +43,19 @@ en:
 
       ℹ️ /help - Get the commands list
 
-      🤖 @KebabSupport - Get a support
+      🤖 [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) - Get a support
   # --------------------------------------------------------
   start:
     text: |
       *🌟 Welcome! 🌟*
 
-      Thank you for choosing [KebabVPN](https://kebabvpn.com). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://kebabvpn.com. All options are available by running /help command.
+      Thank you for choosing [BestVPN](https://bestvpn.ai). To start using VPN, you need to press the *Configurations* button below and you will get the configuration file which you need to install to your device. Detailed guide is available at https://bestvpn.ai. All options are available by running /help command.
   # --------------------------------------------------------
   sub_extended:
     text: |
       🌟 *Congratulations!* 🌟
 
-      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in @KebabSupport! 🫶
+      You have got *%<days>s* days of VPN usage! Feel free to write us your feedback in [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot)! 🫶
 
       Your subscription ends at: *%<exp>s*
   # --------------------------------------------------------
@@ -67,7 +67,7 @@ en:
 
       You need to follow /subscription command to continue using services.
 
-      Please write us to @KebabSupport if you have any questions! 🫶
+      Please write us to [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) if you have any questions! 🫶
   # --------------------------------------------------------
   subscription:
     ico_yes: ✅
@@ -81,7 +81,7 @@ en:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      By making a payment you agree with our [Terms and Conditions](https://bestvpn.ai/terms).
   # --------------------------------------------------------
   payment_options:
     menu:
@@ -91,7 +91,7 @@ en:
       *Your subscription:*
 
       Expiration date: *%<exp>s* %<ico>s (%<days>s active days)
-      By making a payment you agree with our [Terms and Conditions](https://kebabvpn.com/terms).
+      By making a payment you agree with our [Terms and Conditions](https://bestvpn.ai/terms).
 
       You're buying: *%<description>s*
 
@@ -110,7 +110,7 @@ en:
 
       USDT deposits are calculated like USD according to effective pricing. For example, if you want to pay for 12 months, just transfer `49.99` USDT. You may transfer any amount you want, the subscription end date will be calculated accordingly in a proportion.
 
-      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in @KebabSupport.
+      We wait for *20 confirmations* for transaction to be processed, so you have to wait for a while. Once the transaction is processed, you will receive a notification with confirmation of your deposit. If your deposit is not credited, feel free to write us in [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot).
   # --------------------------------------------------------
   config:
     text: |
@@ -198,7 +198,7 @@ en:
       VPN time earn rate: *%<ref_time_percent>s*
       Money earn rate: *%<ref_money_percent>s*
 
-      Contact @KebabSupport to provide your requisites for money withdrawal.
+      Contact [Best_VPN_support_bot](https://t.me/Best_VPN_support_bot) to provide your requisites for money withdrawal.
   # --------------------------------------------------------
   settings:
     text: |
